@@ -6,10 +6,10 @@ layer {
   top: "label"
   dense_image_data_param {
     source: "dataset/train_fine_cityscapes.txt"
-    batch_size: 3
+    batch_size: 10
     shuffle: true
-    new_height: 512
-    new_width: 1024
+    new_height: 320
+    new_width: 640
     label_divide_factor: 8
   }
 }
